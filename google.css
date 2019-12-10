@@ -1,0 +1,31 @@
+a {
+    color: black;
+    font-size: 0.9em;
+
+}
+ .jumbotron{
+     background:white;
+     background-image: url(https://web.archive.org/web/20191201001452im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     margin-top: 100px;
+}
+#button{
+   /* margin-left: 230px */
+}
+#search_box {
+   margin-left: 235px
+
+}
+/* #Gmail {
+    float: right;
+    margin-right: 30px;
+
+
+}
+#Images{
+    float: right;
+    margin-right: 30px;
+} */
+
+

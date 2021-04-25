@@ -4,28 +4,44 @@ a {
 
 }
  .jumbotron{
-     background:white;
+     background: white;
      background-image: url(https://web.archive.org/web/20191201001452im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
      background-position: center;
      background-repeat: no-repeat;
-     margin-top: 100px;
+     margin-top: 0px;
 }
 #button{
    /* margin-left: 230px */
 }
-#search_box {
-   margin-left: 235px
+input {
+   justify-content:center;
 
 }
-/* #Gmail {
-    float: right;
-    margin-right: 30px;
 
-
+#about{
+    position: absolute;
+    top: 20px;
+ left: 20px;
 }
-#Images{
-    float: right;
-    margin-right: 30px;
-} */
+#store {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+}
+#gmail {
+    position: absolute;
+    top: 20px;
+    right:180px;
+}
+#images {
+    position: absolute;
+    top: 20px;
+   right: 120px;
+} 
+#icon{
+    position:absolute;
+    top:20px;
+    right:80px;
+}
 
 

@@ -3,45 +3,103 @@ a {
     font-size: 0.9em;
 
 }
+a:hover{
+    color:black;
+}
  .jumbotron{
      background: white;
      background-image: url(https://web.archive.org/web/20191201001452im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
      background-position: center;
      background-repeat: no-repeat;
-     margin-top: 0px;
+     margin-top: 35px;
 }
 #button{
    /* margin-left: 230px */
 }
-input {
-   justify-content:center;
-
+.form-control {
+    width:600px;
+    height:45px;
+    position:absolute;
+    top:170px;
+    left:380px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
 }
-
+    .form-control:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
 #about{
     position: absolute;
     top: 20px;
  left: 20px;
+}
+#advertising{
+    position:absolute;
+    bottom:auto;
+    left:20px;
+    color:gray;
+}
+p{
+    color:gray;
+    position:absolute;
+    left:20px;
 }
 #store {
     position: absolute;
     top: 20px;
     left: 80px;
 }
+#business{
+    position:absolute;
+    left:120px;
+    color:gray;
+
+}
+#howSearchWorks {
+    position: absolute;
+    left: 220px;
+    color: gray;
+}
 #gmail {
     position: absolute;
     top: 20px;
     right:180px;
+}
+#privacy{
+    position:absolute;
+    right:190px;
+    color:gray;
+}
+#terms {
+    position: absolute;
+    right: 110px;
+    color: gray;
+}
+#settings {
+    position: absolute;
+    right: 30px;
+    color: gray;
 }
 #images {
     position: absolute;
     top: 20px;
    right: 120px;
 } 
-#icon{
+.icon{
     position:absolute;
-    top:20px;
+    width: 20px;
+    top:25px;
     right:80px;
+    
+}
+.kgmail {
+    position: absolute;
+    width: 35px;
+    top: 18px;
+    right: 25px;
+   
 }
 
 

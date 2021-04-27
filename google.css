@@ -11,55 +11,62 @@ a:hover{
      background-image: url(https://web.archive.org/web/20191201001452im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
      background-position: center;
      background-repeat: no-repeat;
-     margin-top: 35px;
+    margin-top:-50px;
 }
-#button{
-   /* margin-left: 230px */
+#googleSearch {
+    position:absolute;
+
 }
 .form-control {
     width:600px;
     height:45px;
-    position:absolute;
-    top:170px;
-    left:380px;
+    position:center;
+    margin-top:200px;
+   
+    /*shape of search bar below*/
     border-top-left-radius: 90px;
     border-top-right-radius: 90px;
     border-bottom-left-radius: 90px;
     border-bottom-right-radius: 90px;
 }
-    .form-control:hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.form-control:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 #about{
     position: absolute;
     top: 20px;
  left: 20px;
 }
-#advertising{
-    position:absolute;
-    bottom:auto;
-    left:20px;
-    color:gray;
+#advertising {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: gray;
 }
 p{
     color:gray;
     position:absolute;
+    bottom:35px;
     left:20px;
+    border-bottom:solid;
+    border-color:gray;
 }
+
 #store {
     position: absolute;
     top: 20px;
     left: 80px;
 }
-#business{
-    position:absolute;
-    left:120px;
-    color:gray;
-
+#business {
+    position: absolute;
+    left: 120px;
+    bottom: 10px;
+    color: gray;
 }
 #howSearchWorks {
     position: absolute;
     left: 220px;
+    bottom: 10px;
     color: gray;
 }
 #gmail {
@@ -67,19 +74,22 @@ p{
     top: 20px;
     right:180px;
 }
-#privacy{
-    position:absolute;
-    right:190px;
-    color:gray;
+#privacy {
+    position: absolute;
+    right: 190px;
+    bottom: 10px;
+    color: gray;
 }
 #terms {
     position: absolute;
+    bottom:10px;
     right: 110px;
     color: gray;
 }
 #settings {
     position: absolute;
     right: 30px;
+    bottom: 10px;
     color: gray;
 }
 #images {

@@ -6,23 +6,31 @@ a {
 a:hover{
     color:black;
 }
- .jumbotron{
-     background: white;
-     background-image: url(https://web.archive.org/web/20191201001452im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
-     background-position: center;
-     background-repeat: no-repeat;
-    margin-top:-50px;
-}
-#googleSearch {
-    position:absolute;
+#logo{
+    display:block;
+   margin-top:100px;
+   margin-left:auto;
+   margin-right:auto;
+    
+   
+    
 
 }
+#searchButtons {
+    display:flex;
+   flex-direction:row;
+   margin-top: 0px;
+    justify-content:center;
+
+}
+
 .form-control {
     width:600px;
     height:45px;
     position:center;
-    margin-top:200px;
+    margin-top:10px;
    
+  
     /*shape of search bar below*/
     border-top-left-radius: 90px;
     border-top-right-radius: 90px;
@@ -37,21 +45,44 @@ a:hover{
     top: 20px;
  left: 20px;
 }
+
 #advertising {
     position: absolute;
     bottom: 10px;
-    left: 20px;
-    color: gray;
+    left: 15px;
+    
 }
-p{
-    color:gray;
+#searchIcon{
+    
     position:absolute;
-    bottom:35px;
-    left:20px;
-    border-bottom:solid;
-    border-color:gray;
-}
+    margin-left:360px;
+    margin-top:-30px;
 
+    color:grey;
+   
+
+}
+#p { /*Australia*/
+
+
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    left:10px;
+    bottom: 30px;
+    background-color: #f2f2f2;
+    
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: lightgrey;
+}
+footer {
+    background-color: #f2f2f2;
+    width:100%;
+    height:50px;
+    position:absolute;
+    bottom:0px;
+}
 #store {
     position: absolute;
     top: 20px;
@@ -59,15 +90,15 @@ p{
 }
 #business {
     position: absolute;
-    left: 120px;
+    left: 97px;
     bottom: 10px;
-    color: gray;
+    
 }
 #howSearchWorks {
     position: absolute;
-    left: 220px;
+    left: 170px;
     bottom: 10px;
-    color: gray;
+   
 }
 #gmail {
     position: absolute;
@@ -76,21 +107,21 @@ p{
 }
 #privacy {
     position: absolute;
-    right: 190px;
+    right: 150px;
     bottom: 10px;
-    color: gray;
+    
 }
 #terms {
     position: absolute;
     bottom:10px;
-    right: 110px;
-    color: gray;
+    right: 90px;
+   
 }
 #settings {
     position: absolute;
-    right: 30px;
+    right: 20px;
     bottom: 10px;
-    color: gray;
+    color: black;
 }
 #images {
     position: absolute;

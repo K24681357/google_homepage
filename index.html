@@ -25,40 +25,47 @@
         </nav><a href="#"><img class="kgmail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Transparent_letter_K_in_a_red_circle.png/600px-Transparent_letter_K_in_a_red_circle.png" /></a>
     </div>
     <!-- The centre google image and the search bar with buttons -->
-    <div class="jumbotron">
+    <div>
+        <img id="logo" src="https://web.archive.org/web/20191201001452im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
 
-        <form class="container-fluid">
+    </div>
+    <div>
+        <form class="flex-container">
 
             <input type="text" class="container-fluid form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+            <i class="fa fa-search" id="searchIcon" aria-hidden="true"></i>
         </form>
     </div>
 
 
-    <div class="container-fluid">
-        <a class="btn btn-light btn-md" id="googleSearch" href="#" role="button" style="margin-top: 30px; margin-left: 195px;">Google Search</a>
-        <a class="btn btn-light btn-md"id="luckySearch" href="#" role="button" style="margin-top: 30px;">I'm Feeling Lucky</a>
+    <!-- search and i feel lucky buttons-->
+    <div id="searchButtons" class="flex-container">
+        <a class="btn btn-light btn-md" id="googleSearch" href="#" role="button">Google Search</a>
+        <a class="btn btn-light btn-md" id="luckySearch" href="#" role="button">I'm Feeling Lucky</a>
 
     </div>
-    <div class="container">
-        <p>Australia</p>
-        
+
+
+
+
+    <!-- footer -->
+
+    <div>
+        <footer>
+            <p id="p">Australia</p>
+            <nav id="footer" class="container">
+
+                <a href="#" id="advertising">Advertising</a>
+                <a href="#" id="business">Business</a>
+
+                <a href="#" id="howSearchWorks">How Search Works</a>
+                <a href="#" id="privacy">Privacy</a>
+                <a href="#" id="terms">Terms</a>
+                <a href="#" id="settings">Settings</a>
+            </nav>
+        </footer>
+
     </div>
-   
-    
-
-    <footer>
-
-        <nav class="container">
-
-            <a href="#" id="advertising">Advertising</a>
-            <a href="#" id="business">Business</a>
-
-            <a href="#" id="howSearchWorks">How Search Works</a>
-            <a href="#" id="privacy">Privacy</a>
-            <a href="#" id="terms">Terms</a>
-            <a href="#" id="settings">Settings</a>
-        </nav>
-    </footer>
 
 </body>
 
